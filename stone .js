@@ -8,7 +8,7 @@ class Boy {
       this.body = Bodies.rectangle(x, y, 50, 50, options);
       this.width = 300;
       this.height = 400;
-      this.image = loadImage("boy.png");
+      this.image = loadImage("images/boy.png");
       
       World.add(world, this.body);
     }
